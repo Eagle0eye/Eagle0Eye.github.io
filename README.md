@@ -8,8 +8,7 @@ I hold a **Computer Science degree** from the Faculty of Computers and Artificia
 
 I have hands-on experience in **software quality assurance, technical support, and backend development**, working on projects such as **course enrollment systems, microservices-based applications, and serverless solutions**.  
 
-I specialize in **Java EE, Servlets, JSP, REST APIs, SQL, Redis, WebSockets, JWT authentication, and in-memory caching**. I focus on **best practices for designing controllers, services, and repositories**, optimizing performance with **pagination and caching**, and implementing **role-based access control (RBAC) in Spring Security**.  
-
+I specialize in **Java EE, Servlets, JSP, REST APIs, SQL, Redis, WebSockets, JWT authentication, and in-memory caching**. I focus on **best practices for designing controllers, services, and repositories**, optimizing performance with **pagination and caching**, and implementing **role-based access control (RBAC) in Spring Security**.
 ---
 
 ## 💻 Tech Stack  

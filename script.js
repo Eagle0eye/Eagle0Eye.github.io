@@ -36,9 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     themeToggle.addEventListener("click", toggleTheme);
 
-    // Apply saved theme preference on page load
     if (localStorage.getItem("darkMode") === "true") {
         document.body.classList.add("dark-mode");
-        sidebar.classList.add("dark-mode"); // FIX: Apply dark mode to sidebar
+        sidebar.classList.add("dark-mode");
     }
 });
