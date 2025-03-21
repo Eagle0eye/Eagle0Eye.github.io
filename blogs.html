@@ -5,24 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yousef Mohamed</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-<div class="stars">
-    <!-- Generate 50 stars -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const starsContainer = document.querySelector(".stars");
-            for (let i = 0; i < 50; i++) {
-                let star = document.createElement("div");
-                star.className = "star";
-                starsContainer.appendChild(star);
-            }
-        });
-    </script>
-</div>
 
 <div class="sidebar">
     <div class="profile-section">
@@ -32,7 +19,7 @@
     </div>
     <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="about.html" >About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="blogs.html">Blogs</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -40,8 +27,60 @@
 </div>
 
 <div class="content">
-    <h1>About Me</h1>
-    <p>This is the about page where you can learn more about me.</p>
+    <h1>Blogs</h1>
+    <p>Read my latest blogs on Java, Spring Boot, and backend development.</p>
+
+    <div class="blogs-container">
+        <!-- Blog 1 -->
+        <div class="blog-card">
+            <img src="images/java-performance.jpg" alt="Java Performance" class="blog-img">
+            <div class="blog-info">
+                <h2>Java Performance Optimization</h2>
+                <p>Best practices for writing high-performance Java applications.</p>
+            </div>
+            <a href="java-performance.html" class="arrow-link">➡</a>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-card">
+            <img src="images/microservices.jpg" alt="Microservices Architecture" class="blog-img">
+            <div class="blog-info">
+                <h2>Microservices: Best Practices</h2>
+                <p>Key patterns and best practices for scalable microservices.</p>
+            </div>
+            <a href="microservices.html" class="arrow-link">➡</a>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <img src="images/spring-security.jpg" alt="Spring Security" class="blog-img">
+            <div class="blog-info">
+                <h2>Spring Security with JWT</h2>
+                <p>How to implement JWT authentication in a Spring Boot app.</p>
+            </div>
+            <a href="spring-security.html" class="arrow-link">➡</a>
+        </div>
+
+        <!-- Blog 4 -->
+        <div class="blog-card">
+            <img src="images/docker.jpg" alt="Docker for Developers" class="blog-img">
+            <div class="blog-info">
+                <h2>Docker for Backend Developers</h2>
+                <p>Why every backend developer should use Docker.</p>
+            </div>
+            <a href="docker.html" class="arrow-link">➡</a>
+        </div>
+
+        <!-- Blog 5 -->
+        <div class="blog-card">
+            <img src="images/kafka.jpg" alt="Kafka Event Processing" class="blog-img">
+            <div class="blog-info">
+                <h2>Kafka Event Processing</h2>
+                <p>Understanding event-driven architecture with Apache Kafka.</p>
+            </div>
+            <a href="kafka.html" class="arrow-link">➡</a>
+        </div>
+    </div>
 </div>
 
 <script src="script.js"></script>

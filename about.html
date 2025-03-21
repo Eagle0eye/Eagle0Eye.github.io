@@ -5,24 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yousef Mohamed</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-<div class="stars">
-    <!-- Generate 50 stars -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const starsContainer = document.querySelector(".stars");
-            for (let i = 0; i < 50; i++) {
-                let star = document.createElement("div");
-                star.className = "star";
-                starsContainer.appendChild(star);
-            }
-        });
-    </script>
-</div>
 
 <div class="sidebar">
     <div class="profile-section">
@@ -41,7 +28,40 @@
 
 <div class="content">
     <h1>About Me</h1>
-    <p>This is the about page where you can learn more about me.</p>
+    <p>Hello! I'm <strong>Yousef Mohamed Salama</strong>, a passionate <strong>Java Backend Developer</strong> with expertise in Spring Boot, Microservices, and Database Management.</p>
+
+    <h2>Skills & Technologies</h2>
+    <ul>
+        <li>Java, Hibernate, Spring Boot, Spring Security, Spring Data</li>
+        <li>Microservices Architecture</li>
+        <li>Database Management (PostgreSQL, MongoDB, Redis)</li>
+        <li>Docker, GitHub</li>
+        <li>RabbitMQ</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <p>I have experience in software quality assurance, backend development, and cloud-based microservices applications. I love building efficient, scalable, and secure systems.</p>
+    <section>
+        <h2>Projects</h2>
+        <h3><a href="https://github.com/Eagle0eye/HTTP_Client" target="_blank">HTTP Client Request Builder</a></h3>
+        <p>
+            Developed a Python module designed to simplify the process of constructing and sending HTTP requests. The project utilizes the Builder Pattern, allowing for fluent and expressive request construction, and leverages object-oriented principles for modularity and extensibility.
+        </p>
+        <h3><a href="https://github.com/Eagle0eye/Head-First-Object-Oriented-Analysis-and-Design" target="_blank">Head First Object-Oriented Analysis and Design</a></h3>
+        <p>
+            Authored summaries and implementations based on the "Head First OOAD" book. This project showcases my understanding of design patterns, OOP principles, SOLID principles, and other best practices in software design.
+        </p>
+        <h3><a href="https://github.com/Eagle0eye/Databse_Config" target="_blank">Database Configuration</a></h3>
+        <p>
+            Created configurations and setups for various database systems, aiming to streamline database management and integration within applications.
+        </p>
+        <h3><a href="https://github.com/Eagle0eye/enrollment-course-application" target="_blank">Enrollment Course Application</a></h3>
+        <p>
+            Developed a Java-based application to manage course enrollments, demonstrating skills in application development, user management, and data processing.
+        </p>
+    </section>
+    <h2>Contact</h2>
+    <p>Feel free to <a href="contact.html">reach out</a> for collaboration or just to say hi!</p>
 </div>
 
 <script src="script.js"></script>
